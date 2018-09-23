@@ -11,8 +11,7 @@ class App extends Component {
         <div className="App-intro">
           <p>
             Click on every Sport once.  Whenever you click a Sport the grid will shuffle.
-        </p>
-          <p>
+          <br />
             If you click on a Sport more than once the game will restart!
         </p>
         </div>
