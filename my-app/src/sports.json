@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Baseball",
+        "image": "./images/baseball.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Basketball",
+        "image": "./images/basketball.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Cricket",
+        "image": "./images/cricket.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Cycling",
+        "image": "./images/cycling.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Football",
+        "image": "./images/football1.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Golf",
+        "image": "./images/golf.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Hockey",
+        "image": "./images/hockey.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Rugby",
+        "image": "./images/rugby.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Soccer",
+        "image": "./images/soccer1.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Tennis",
+        "image": "./images/tennis.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Track",
+        "image": "./images/track.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Volleyball",
+        "image": "./images/volleyball.jpg"
+    }
+]
