@@ -13,19 +13,22 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+
+      <Wrapper>
         <Header />
-        <Wrapper>
-          {this.state.sports.map(sports => (
-            <SportsCard
-              image={sports.image}
-            />
-          ))}
-        </Wrapper>
+        {this.state.sports.map(sports => (
+          <SportsCard
+            id={sports.id}
+            key={sports.id}
+            image={sports.image}
+          />
+        ))}
+
+      </Wrapper>
 
 
 
-      </div>
+
     );
   }
 }

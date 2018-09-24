@@ -1,0 +1,26 @@
+.App-header {
+    background-color: rgba(0,0,0,.75);
+    /* background-color: rgba(028,134,238,.75); */
+    /* background-color: dodgerblue; */
+    height: 50px;
+    padding: 5px;
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    
+    
+}
+
+.App-intro {
+    font-size: 24px;
+    background-color: rgba(0,0,0,.75);
+    /* background: white; */
+    color: white;
+    /* margin: 0% 25% 0% 25%; */
+    font-weight: 700;
+   
+}
+  
+p {
+    margin: 0px 0px 0px 0px;
+}
