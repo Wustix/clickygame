@@ -1,20 +1,27 @@
 import React, { Component } from 'react';
-
-import SportsCard from './components/SportsCard/SportsCard';
-import Header from './components/Header/Header';
+import Wrapper from "./components/Wrapper";
+import SportsCard from './components/SportsCard';
+import Header from './components/Header';
+import sports from './sports.json';
 import './App.css';
 
 class App extends Component {
+
+  state = {
+    sports
+  };
 
   render() {
     return (
       <div className="App">
         <Header />
-        {this.state.sports.map(sports => (
-          <SportsCard
-            image={sports.image}
-          />
-        ))}
+        <Wrapper>
+          {this.state.sports.map(sports => (
+            <SportsCard
+              image={sports.image}
+            />
+          ))}
+        </Wrapper>
 
 
 
