@@ -15,8 +15,13 @@ class Header extends Component {
             If you click on a Sport more than once the game will restart!
         </p>
         </div>
+        <div className="Count">
+          <p>
+            Score: {this.props.score}
+        </p>
+        </div>
       </div>
-      
+
     );
   }
 }
