@@ -16,12 +16,13 @@ class App extends Component {
   imageClick = event => {
     const currentSport = event.target.alt;
     const SportAlreadyClicked =
-    this.state.clickedSport.indexOf(currentSport) > -1;
+      this.state.clickedSport.indexOf(currentSport) > -1;
     console.log(currentSport);
     console.log(SportAlreadyClicked);
 
 
     if (SportAlreadyClicked) {
+            
       this.setState({
         sports: this.state.sports.sort(function (a, b) {
           return 0.5 - Math.random();
@@ -29,8 +30,10 @@ class App extends Component {
         }),
         clickedSport: [],
         score: 0
+
       });
-      // alert("You lose, Play again?")
+
+      alert("You lose, Play again?")
 
 
     } else {
@@ -49,7 +52,7 @@ class App extends Component {
         },
         () => {
           if (this.state.score === 12) {
-            // alert("Good Job, You Won!!!!");
+            alert("Good Job, You Won!!!!");
             this.setState({
               sports: this.state.sports.sort(function (a, b) {
                 return 0.5 - Math.random();
@@ -63,12 +66,13 @@ class App extends Component {
     }
   };
 
- 
+
   render() {
     return (
 
       <Wrapper>
-        <Header />
+        <Header score={this.state.score} />
+
         {this.state.sports.map(sports => (
           <SportsCard
             imageClick={this.imageClick}
