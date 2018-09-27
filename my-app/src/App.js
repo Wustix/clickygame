@@ -33,7 +33,7 @@ class App extends Component {
 
       });
 
-      alert("You lose, Play again?")
+      // alert("You lose, Play again?")
 
 
     } else {
@@ -52,7 +52,7 @@ class App extends Component {
         },
         () => {
           if (this.state.score === 12) {
-            alert("Good Job, You Won!!!!");
+            // alert("Good Job, You Won!!!!");
             this.setState({
               sports: this.state.sports.sort(function (a, b) {
                 return 0.5 - Math.random();

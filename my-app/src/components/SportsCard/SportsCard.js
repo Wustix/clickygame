@@ -6,7 +6,7 @@ const SportsCard = props => (
 
   <div className="img-container" onClick={props.imageClick}>
 
-    <img alt={props.name} src={props.image} />
+    <img alt={props.image.replace(".jpg", "")} src={props.image} />
   </div>
 
 

@@ -12,7 +12,7 @@ class Header extends Component {
           <p>
             Click on every Sport once.  Whenever you click a Sport the grid will shuffle.
           <br />
-            If you click on a Sport more than once the game will restart!
+            If you click on a Sport more than once or Reach a Score of 12, the game will restart!
         </p>
         </div>
         <div className="Count">
