@@ -6,7 +6,7 @@ import sports from './sports.json';
 import './App.css';
 
 class App extends Component {
-
+// Just checking
   state = {
     sports,
     clickedSport: [],
